@@ -1,0 +1,38 @@
+.article-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: $primary-padding;
+  position: relative;
+  overflow: hidden;
+  margin: 5rem 0;
+  .article-card {
+    background-color: $color-content-bg;
+    height: 55rem;
+    //border-radius: 1rem;
+    box-shadow: 0px 20px 50px #d9dbdf;
+    &-img {
+      .card-img {
+        height: 20rem;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        //border-radius: 1rem;
+      }
+    }
+    &-title {
+      font-size: 3rem;
+      font-weight: 400;
+      text-align: left;
+      margin: 2rem 4rem;
+    }
+    &-content {
+      font-size: 1.5rem;
+      margin: 2rem 4rem;
+      text-align: justify;
+      
+    }
+  }
+}

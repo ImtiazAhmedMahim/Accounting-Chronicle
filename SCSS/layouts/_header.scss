@@ -1,0 +1,48 @@
+.header {
+  padding: 0rem 4rem 0rem 4rem;
+  /*  background-image: linear-gradient(
+    to right,
+    $color-dark-green,
+    $color-medium-green, */
+  /* $color-light-green */
+  background-image: linear-gradient(to right, $dark-green, $medium-green);
+
+  .navbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    height: 10rem;
+    &-title {
+      font-size: 4rem;
+      color: $color-yellow;
+      display: inline-block;
+      font-weight: bold;
+    }
+    &-ul {
+      list-style: none;
+      display: inline-block;
+
+      & li {
+        text-decoration: none;
+        display: inline-block;
+        &:not(:last-child) {
+          margin-right: 1.5rem;
+        }
+        & a {
+          text-decoration: none;
+          color: white;
+          font-size: 3rem;
+          text-align: center;
+          text-transform: capitalize;
+          padding: 0;
+          &:hover {
+            border-bottom: 1px solid $color-yellow;
+          }
+        }
+      }
+    }
+  }
+}

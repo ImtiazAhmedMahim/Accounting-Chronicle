@@ -1,0 +1,187 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  /* this defines what 1 rem is  */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: rgb(243, 244, 211);
+  box-sizing: border-box;
+  margin: 0;
+  height: 500rem;
+}
+
+*::selection {
+  background-color: rgb(40, 247, 99);
+}
+
+/* main {
+  background-color: white;
+  height: 90vh;
+  box-shadow: 0 1rem 1rem rgba(49, 47, 47, 0.307);
+} */
+.center-text {
+  text-align: center;
+}
+
+.margin-bottom-big {
+  margin-bottom: 8rem;
+}
+
+.margin-bottom {
+  margin-bottom: 5rem;
+}
+
+.margin-top {
+  margin-top: 8rem;
+}
+
+.secondary-heading {
+  font-size: 5rem;
+  color: rgb(24, 49, 20);
+}
+
+.header {
+  padding: 0rem 4rem 0rem 4rem;
+  /*  background-image: linear-gradient(
+    to right,
+    $color-dark-green,
+    $color-medium-green, */
+  /* $color-light-green */
+  background-image: linear-gradient(to right, #28b485, #7ed56f);
+}
+.header .navbar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  height: 10rem;
+}
+.header .navbar-title {
+  font-size: 4rem;
+  color: rgb(252, 238, 33);
+  display: inline-block;
+  font-weight: bold;
+}
+.header .navbar-ul {
+  list-style: none;
+  display: inline-block;
+}
+.header .navbar-ul li {
+  text-decoration: none;
+  display: inline-block;
+}
+.header .navbar-ul li:not(:last-child) {
+  margin-right: 1.5rem;
+}
+.header .navbar-ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0;
+}
+.header .navbar-ul li a:hover {
+  border-bottom: 1px solid rgb(252, 238, 33);
+}
+
+.hero-section {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  column-gap: 3rem;
+  height: 40rem;
+  background-image: linear-gradient(to right, #28b485, #7ed56f);
+  padding: 0rem 4rem 0rem 4rem;
+}
+.hero-section-text-title {
+  font-size: 4rem;
+  text-indent: 0%;
+  text-align: justify;
+  margin: 2rem 0 3rem 0;
+  color: rgb(252, 238, 33);
+  font-weight: 400;
+}
+.hero-section-text-span {
+  font-size: 3rem;
+  text-align: justify;
+  color: white;
+}
+.hero-section-img .hero-img {
+  width: 100%;
+  margin-bottom: 3rem;
+  height: 35rem;
+  object-fit: fill;
+  object-position: center;
+}
+
+.article-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 0rem 4rem 0rem 4rem;
+  position: relative;
+  overflow: hidden;
+  margin: 5rem 0;
+}
+.article-container .article-card {
+  background-color: rgb(220, 222, 159);
+  height: 55rem;
+  box-shadow: 0px 20px 50px #d9dbdf;
+}
+.article-container .article-card-img .card-img {
+  height: 20rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.article-container .article-card-title {
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: left;
+  margin: 2rem 4rem;
+}
+.article-container .article-card-content {
+  font-size: 1.5rem;
+  margin: 2rem 4rem;
+  text-align: justify;
+}
+
+.btn {
+  background-color: #3edd84;
+  color: white;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 10rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 2rem 4rem;
+  font-size: 2rem;
+  cursor: pointer;
+  font-family: "merriweather";
+}
+.btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 10px 10px 5px rgba(49, 47, 47, 0.307);
+  scale: 1.05;
+}
+.btn-read-more {
+  position: absolute;
+  bottom: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+.btn {
+  background-color: #3edd84;
+  color: white;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 10rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 2rem 4rem;
+  font-size: 2rem;
+  cursor: pointer;
+  font-family: "merriweather";
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 10px 10px 5px $color-black;
+    scale: 1.05;
+  }
+
+  &-read-more {
+    position: absolute;
+    bottom: 1rem;
+  }
+}
