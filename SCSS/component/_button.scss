@@ -11,14 +11,15 @@
   font-size: 2rem;
   cursor: pointer;
   font-family: "merriweather";
+  display: inline-block;
   &:hover {
     transform: translateY(-4px);
     box-shadow: 10px 10px 5px $color-black;
     scale: 1.05;
   }
 
-  &-read-more {
+  /* &-read-more {
     position: absolute;
     bottom: 1rem;
-  }
+  } */
 }

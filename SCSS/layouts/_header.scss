@@ -1,11 +1,11 @@
 .header {
   padding: 0rem 4rem 0rem 4rem;
-  /*  background-image: linear-gradient(
+   background-image: linear-gradient(
     to right,
     $color-dark-green,
-    $color-medium-green, */
-  /* $color-light-green */
-  background-image: linear-gradient(to right, $dark-green, $medium-green);
+    $color-medium-green, 
+  /* $color-light-green */);
+  //background-image: linear-gradient(to right, $dark-green, $medium-green);
 
   .navbar {
     margin: 0;
@@ -44,5 +44,11 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 720px) {
+  .header {
+    padding: 0rem 2rem 0rem 2rem;
   }
 }

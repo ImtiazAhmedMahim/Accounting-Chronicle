@@ -14,3 +14,10 @@
   font-size: 5rem;
   color: $color-dark-green;
 }
+
+@media (max-width:720px) {
+  .secondary-heading {
+    font-size: 2.5rem;
+    margin: 2rem auto;
+  }
+}
